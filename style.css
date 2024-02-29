@@ -108,8 +108,8 @@ section h4 {
 /*----------------------header section---------------*/
 
 .head {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 1vh;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -156,13 +156,25 @@ span {
 /*----------------------Home-------------*/
 
 .home {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("back-1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("videooo.mp4");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
     height: 80vh;
+}
+#background-video {
+    height: 88vh;
+    width: 100vw;
+    object-fit:cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.9;
 }
 
 .search-box {
@@ -201,7 +213,7 @@ span {
 }
 
 
-/*-------------------services--------------*/
+/*-------------------gyms-------------*/
 
 .services-row {
     display: flex;
@@ -249,7 +261,7 @@ span {
 }
 
 
-/*----------------------vendor section------------*/
+/*----------------------gym selection------------*/
 
 .vendor-list {
     align-items: center;
@@ -308,7 +320,7 @@ span {
 }
 
 
-/*----------------------------venue section-----------------*/
+/*----------------------------location-----------------*/
 
 .venue .venue-list {
     display: flex;
@@ -379,7 +391,7 @@ span {
 }
 
 
-/*--------------------------e-invitation section-----------*/
+/*-------------------------more detail----------*/
 
 .invite .invitation-row {
     display: flex;
