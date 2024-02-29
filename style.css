@@ -224,8 +224,8 @@ span {
 
 .services-col {
     height: 22rem;
-    color: rgb(236, 68, 90);
-    background: url("back-2.png");
+    color: rgb(236, 118, 68);
+    background: url("exercise\ trainer.jpg");
     background-color: lightgray;
     background-position: center;
     background-size: cover;
@@ -234,6 +234,91 @@ span {
     padding: 1.2rem;
     margin: 1.5rem;
 }
+.services-col2 {
+    height: 22rem;
+    color: rgb(236, 68, 90);
+    background: url("food-diet.jpg");
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 1 1 25rem;
+    padding: 1.2rem;
+    margin: 1.5rem;
+}
+.services-col3 {
+    height: 22rem;
+    color: rgb(236, 68, 90);
+    background: url("welness.jpg");
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 1 1 25rem;
+    padding: 1.2rem;
+    margin: 1.5rem;
+}
+.services-col4 {
+    height: 22rem;
+    color: rgb(236, 68, 90);
+    background: url("pexels-andrea-piacquadio-3768916.jpg");
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 1 1 25rem;
+    padding: 1.2rem;
+    margin: 1.5rem;
+}
+.services-col5 {
+    height: 22rem;
+    color: rgb(236, 68, 90);
+    background: url("group.jpg");
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 1 1 25rem;
+    padding: 1.2rem;
+    margin: 1.5rem;
+}
+.services-col6 {
+    height: 22rem;
+    color: rgb(236, 68, 90);
+    background: url("sportss.jpg");
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 1 1 25rem;
+    padding: 1.2rem;
+    margin: 1.5rem;
+}
+.services-col7 {
+    height: 22rem;
+    color: rgb(236, 68, 90);
+    background: url("virtual.jpg");
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 1 1 25rem;
+    padding: 1.2rem;
+    margin: 1.5rem;
+}
+.services-col8 {
+    height: 22rem;
+    color: rgb(236, 68, 90);
+    background: url("pysss.png");
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 1 1 25rem;
+    padding: 1.2rem;
+    margin: 1.5rem;
+}
+
 
 .services-col i {
     padding: 2.2rem;
